@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+    }
+
+    .navbar {
+        width: 100vw;
+        height: 100vh;
+        background: url("https://static.toiimg.com/thumb/116682729.cms?resizemode=75&width=1200&height=900");
+        background-size: cover;
+        background-position: center;
+
+
+    }
+
+    .text-block {
+        position: absolute;
+        bottom: 100px;
+        right: 90px;
+        font-size: 20px;
+        color: aliceblue;
+        padding-left: 300px;
+        padding-right: 33px;
+
+    }
+
+    .text {
+        position: absolute;
+        bottom: 50px;
+        right: 90px;
+        font-size: larger;
+        color: aliceblue;
+        padding-left: 50px;
+        padding-right: 10px;
+
+
+
+    }
+
+    .inp {
+        position: absolute;
+        color: white;
+
+        padding: 50px;
+        left: 60px;
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        border-bottom: 3px solid orange;
+    }
+
+    .five {
+        height: 300px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+
+    }
+
+    .card {
+        background: #eaf0f5;
+        width: 300px;
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+
+
+    .card h3 {
+        margin: 15px 0 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+        color: #444;
+    }
+
+    .learn-btn {
+        margin-top: 10px;
+        display: inline-block;
+        background: #fff;
+        color: #000;
+        border: 1px solid #ccc;
+        padding: 8px 12px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .form-box {
+        background: #f1f3f5;
+        padding: 20px;
+        width: 300px;
+        border-radius: 10px;
+        margin: 15px;
+    }
+
+    .form-box input,
+    .form-box select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background: transparent;
+    }
+
+    .form-box button {
+        width: 100%;
+        background: orange;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .bt {
+
+
+        background: #fff;
+        color: orangered;
+        display: flex;
+        padding: 10px;
+        margin: 50px;
+        background-color: rgb(245, 242, 242);
+        text-decoration: none;
+        font-size: 24px;
+    }
+</style>
+
+<body>
+    <div class="navbar"
+        style="display: flex; justify-content: center; gap: 10px; padding: 20px; color: rgb(84, 129, 155);">
+        <div class="text-block">
+            <h4 style="font-size: 30px; color: azure;">Hills</h4>
+            <p>Travelling along the winding roads <br> of Kerala is
+                Melt in the panoramic <br> view of the valleys that will heal <br> your mind and soul.</p>
+        </div>
+        <div class="text">
+            <table>
+                <tr>
+                    <td>
+
+                        <a href="Hills" style="color: #eaf0f5;">Hills|</a>
+                        <a href="Waterfalls" style="color: #eaf0f5;">Waterfalls|</a>
+                        <a href="BackWater" style="color: #eaf0f5;">BackWater|</a>
+                        <a href="Beaches" style="color: #eaf0f5;">Beaches</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="display: flex; gap: 20px;">
+            <div><a style=" text-decoration: none; color: white; display: flex;" href="">
+
+                    <h2 style="cursor: pointer;">Where to Go</h2>
+                </a> </div>
+            <div><a style=" text-decoration: none; color: white; display: flex;" href="">
+                    <h2 style="cursor: pointer;">Experience</h2>
+                </a></div>
+            <div><a style=" text-decoration: none; color: white; display: flex;" href="">
+                    <h2 style="cursor: pointer;">Plan a Trip</h2>
+                </a></div>
+        </div>
+
+
+
+    </div>
+    <div class="spc" style="width: 100vw; height: 100%;">
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px;">What's New</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: #444;">Here's a quick glance on
+            what's
+            trending in God's Own Country now</h2>
+        <div>
+            <div class="inp">
+                <h1 style="font-size: 50px; color: #444;">Destination Wedding</h1>
+                <p style="font-size: 20px; color: aliceblue;">Whether it's a sandy beaches,serene hills,or <br>tranquil
+                    backwaters,
+                    kerala offers a vareity <br>of perfect
+                    destination spot to provide most <br> memorable backdrop for your special day</p>
+            </div>
+            <a href="https://www.keralatourism.org/images/newsbytes/large/shankumugham_in_kerala_s_thiruvananthapuram_forays_into_destination_wedding_club20231212180317_2197_1.jpg"
+                target="_blank">
+                <img src="https://www.keralatourism.org/images/newsbytes/large/shankumugham_in_kerala_s_thiruvananthapuram_forays_into_destination_wedding_club20231212180317_2197_1.jpg"
+                    alt=""
+                    style="width: 100%; height: 100%; padding-right: 10px; padding-left: 20px; border-radius: 20px; "></a>
+
+        </div>
+
+    </div>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px;">Kerala's Stunning
+            Wonders</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: gray; ">Enjoy the magnificent and
+            varied allure of God's Own Country</h2>
+
+    </div>
+
+    <div class="one"
+        style=" height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center; ">
+
+        <div>
+            <div style=" position: absolute; align-items: end; justify-content: end; margin: 20px; padding-top: 300px;">
+                <h3 style="color: #eaf0f5; font-size: 40px;">Discover Kerala's <br> Religious Heritage</h3>
+                <p style="color: #eaf0f5; font-size: 20px; ">Explore ancient temples, serene churches, <br> historic
+                    mosques, vibrant rituals of <br> Theyyam and
+                    Padayani that
+                    showcase the <br> rich religious heritage of this divine </p>
+            </div>
+            <a href="https://www.keralatourism.org/images/homecontentimage/south-kerala.jpg" target="_blank">
+                <img src="https://www.keralatourism.org/images/homecontentimage/south-kerala.jpg" alt=""
+                    style="width: 400px; height: 600px; border-radius: 20px; padding: 10px;">
+
+
+            </a>
+        </div>
+        <div>
+            <div style=" position: absolute; align-items: end; justify-content: end; margin: 20px; padding-top: 300px;">
+                <h3 style="color: #eaf0f5; font-size: 40px;">Savor Malabar's <br> Diverse Attractions</h3>
+                <p style="color: #eaf0f5; font-size: 20px; ">Every day in Malabar is a sensory delight. <br> Explore the
+                    serene coastal beauty, historic forts, <br> and exquisite culinary wonders that define this <br>
+                    vibrant
+                    region of Kerala. </p>
+            </div>
+            <a href="https://www.keralatourism.org/images/language_banner/mobile/malayalam/coconut-lan-768x768.jpg"
+                target="_blank">
+                <img src="https://www.keralatourism.org/images/language_banner/mobile/malayalam/coconut-lan-768x768.jpg"
+                    alt="" style="height: 600px; width: 420px; border-radius: 20px; padding: 10px;"></a>
+        </div>
+        <div>
+            <div style=" position: absolute; align-items: end; justify-content: end; margin: 20px; padding-top: 300px;">
+                <h3 style="color: #eaf0f5; font-size: 40px;">Experience Kerala's <br> Wellness Retreats</h3>
+                <p style="color: #eaf0f5; font-size: 20px; ">Discover traditional Ayurvedic treatments, yoga retreats,
+                    wellness resorts, and therapeutic practices rooted in centuries-old traditions for a holistic
+                    rejuvenation. </p>
+            </div>
+            <a href="https://images.squarespace-cdn.com/content/v1/5a74702ce45a7cd601df944b/1611574058311-T6ZGUDC7WYXPTKJ1T3J6/Ayurveda+visa.jpg"
+                target="_blank">
+                <img src="https://images.squarespace-cdn.com/content/v1/5a74702ce45a7cd601df944b/1611574058311-T6ZGUDC7WYXPTKJ1T3J6/Ayurveda+visa.jpg"
+                    alt="" style="width: 400px; height: 600px; border-radius: 20px; padding: 10px; "></a>
+        </div>
+
+    </div>
+    <div style="width: 100vw; height: 100hw; padding: 20px; display: flex;">
+
+        <a href="https://www.keralatourism.net.in/img/alleppey-tourism.jpg" target="_blank"><img
+                src="https://www.keralatourism.net.in/img/alleppey-tourism.jpg" alt=""
+                style="height: 600px;width: 1320px; border-radius: 10px;"></a>
+
+    </div>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px">
+            Events</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: grey; ">
+            The land of rich cultures and traditions! Mark the major events for your next visit</h2>
+
+    </div>
+    <div class="two"
+        style=" height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center; ">
+        <div>
+            <h1
+                style="position: absolute; align-items: first baseline; justify-content: first baseline; font-size: 30px; margin: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5; padding-bottom: 20px;">
+                On </h1><br>
+            <h2
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; font-family: 'Times New Roman', Times, serif; color: orangered; padding-top:  20px;">
+                26 Aug</h1>
+                <h3
+                    style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 80px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                    Athachamayam
+            </h2>
+        </div>
+        <a href="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fvertical%2Fthrissur-1713788386_efbe46e21620bc21d1e8.webp&w=3840&q=75"
+            target="_blank">
+            <img src="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fvertical%2Fthrissur-1713788386_efbe46e21620bc21d1e8.webp&w=3840&q=75"
+                alt="" style="width: 400px; height: 600px; border-radius: 20px; padding: 10px;">
+        </a>
+        <div>
+            <h1
+                style="position: absolute; align-items: first baseline; justify-content: first baseline; font-size: 30px; margin: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5; padding-bottom: 20px;">
+                From </h1><br>
+            <h2
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; font-family: 'Times New Roman', Times, serif; color: orangered; padding-top:  20px;">
+                01 Sept</h1>
+                <h3
+                    style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 80px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                    Mannarcad Perunnal
+            </h2>
+        </div>
+        <a href="https://www.keralatourismpackage.org/images/uploag-img/2019-06-10-10-57-21-558_kerala.jpg"
+            target="_blank">
+            <img src="https://www.keralatourismpackage.org/images/uploag-img/2019-06-10-10-57-21-558_kerala.jpg" alt=""
+                style="height: 600px; width: 420px; border-radius: 20px; padding: 10px;"></a>
+        <div>
+            <h1
+                style="position: absolute; align-items: first baseline; justify-content: first baseline; font-size: 30px; margin: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5; padding-bottom: 20px;">
+                From </h1><br>
+            <h2
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; font-family: 'Times New Roman', Times, serif; color: orangered; padding-top:  20px;">
+                05 Sept</h1>
+                <h3
+                    style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 80px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                    Feast of Holy Cross Shrine
+            </h2>
+        </div>
+        <a href="https://static.wixstatic.com/media/c8e24e_8734146da4f241b591e5f0ede582f9e0~mv2.jpg/v1/fill/w_640,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Kerala-tourism.jpg"
+            target="_blank">
+            <img src="https://static.wixstatic.com/media/c8e24e_8734146da4f241b591e5f0ede582f9e0~mv2.jpg/v1/fill/w_640,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Kerala-tourism.jpg"
+                alt="" style="width: 400px; height: 600px; border-radius: 20px; padding: 10px; "></a>
+
+    </div>
+    <div style="display: flex;justify-content: flex-end;"><a class="learn-btn" href="#">Explore</a>
+    </div>
+
+
+
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px">
+            Gateway to Kerala</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: grey; ">
+            Let God's Own Country inspire your next journey</h2>
+
+    </div>
+
+    <div style="width: 100vw; height: 100hw; padding: 20px; display: flex;">
+
+        <a href="https://www.abhibus.com/blog/wp-content/uploads/2023/07/Top-10-Must-Try-Foods-on-Your-Next-Kerala-Trip.jpg"
+            target="_blank"><img
+                src="https://www.abhibus.com/blog/wp-content/uploads/2023/07/Top-10-Must-Try-Foods-on-Your-Next-Kerala-Trip.jpg"
+                alt="" style="height: 600px;width: 1320px; border-radius: 10px;"></a>
+
+
+    </div>
+    <div style="display: flex;justify-content: flex-end;"><a class="learn-btn" href="#">Explore</a></div>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px;">
+            Popular Destinations</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: grey; ">
+            Check out these enthralling tourism spots that cast a magical spell!</h2>
+
+    </div>
+    <div class="three" style="  width: 100vw; display: flex; align-items: center; justify-content: center; ">
+        <div>
+            <h1
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                Thattekad bird <br> sanctuary</h1>
+        </div>
+        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBdMSWOilEPomaWPp9mTXslz8uTO09IoDV-0fA_FlIkRQgAYnjEz_oG4-4kqLalgS2pM&usqp=CAU"
+            target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBdMSWOilEPomaWPp9mTXslz8uTO09IoDV-0fA_FlIkRQgAYnjEz_oG4-4kqLalgS2pM&usqp=CAU"
+                alt="" style="width: 300px; height: 300px; border-radius: 20px; padding: 10px;">
+        </a>
+        <div>
+            <h1
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                Bekal Fort</h1>
+        </div>
+
+        <a href="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fvertical%2Ftipus-fort-1723536048_38829f43b1943bf21e6f.webp&w=3840&q=75"
+            target="_blank">
+            <img src="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fvertical%2Ftipus-fort-1723536048_38829f43b1943bf21e6f.webp&w=3840&q=75"
+                alt="" style="height: 300px; width: 300px; border-radius: 20px; padding: 10px;"></a>
+        <div>
+            <h1
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                Periyar Tiger <br> Reserve</h1>
+        </div>
+        <a href="https://www.theserenehorizon.com/media/filer_public_thumbnails/filer_public/1c/3b/1c3bbed6-4348-4799-a739-b4051c84530d/image_1_tigerjpg__5000x7000_q85_subsampling-2.jpg__500.0x700.0_q85_subsampling-2.jpg"
+            target="_blank">
+            <img src="https://www.theserenehorizon.com/media/filer_public_thumbnails/filer_public/1c/3b/1c3bbed6-4348-4799-a739-b4051c84530d/image_1_tigerjpg__5000x7000_q85_subsampling-2.jpg__500.0x700.0_q85_subsampling-2.jpg"
+                alt="" style="width: 300px; height: 300px; border-radius: 20px; padding: 10px; "></a>
+        <div>
+            <h1
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                Kumarakom</h1>
+        </div>
+
+        <a
+            href="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fmobile%2Fkumarakom-1724149575_05d49ea4ea0932e66beb.webp&w=3840&q=75"><img
+                src="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fmobile%2Fkumarakom-1724149575_05d49ea4ea0932e66beb.webp&w=3840&q=75"
+                alt="" style="height: 300px; width: 300px; border-radius: 20px; padding: 10px;"></a>
+
+
+    </div>
+    <div class="four" style="  width: 100vw; display: flex; align-items: center; justify-content: center; ">
+        <div>
+            <h1
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                Athirapilly</h1>
+        </div>
+        <a href="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fvertical%2Fathirappilly-vazhachal-waterfalls-1706964152_b541d7f0534819d3c293.webp&w=3840&q=75"
+            target="_blank">
+            <img src="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fvertical%2Fathirappilly-vazhachal-waterfalls-1706964152_b541d7f0534819d3c293.webp&w=3840&q=75"
+                alt="" style="width: 300px; height: 300px; border-radius: 20px; padding: 10px;">
+        </a>
+        <div>
+            <h1
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                Munnar</h1>
+        </div>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Munnar_hillstation_kerala.jpg/1200px-Munnar_hillstation_kerala.jpg"
+            target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Munnar_hillstation_kerala.jpg/1200px-Munnar_hillstation_kerala.jpg"
+                alt="" style="height: 300px; width: 300px; border-radius: 20px; padding: 10px;"></a>
+        <div>
+            <h1
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                Kovalam</h1>
+        </div>
+        <a href="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Flarge-desktop%2Fbackwaters-1714755527_b0280efe36a43ee1cab5.webp&w=3840&q=75"
+            target="_blank">
+            <img src="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Flarge-desktop%2Fbackwaters-1714755527_b0280efe36a43ee1cab5.webp&w=3840&q=75"
+                alt="" style="width: 300px; height: 300px; border-radius: 20px; padding: 10px; "></a>
+        <div>
+            <h1
+                style="position: absolute; align-items: center; justify-content: center; font-size: 30px; margin: 20px; padding-top: 20px; font-family: 'Times New Roman', Times, serif; color: #eaf0f5;">
+                Kavvayi Backwaters</h1>
+        </div>
+        <a
+            href="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fmobile%2Fkavvayi-backwater-1727493497_1ffba9d501c227ca4d35.webp&w=3840&q=75"><img
+                src="https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fmobile%2Fkavvayi-backwater-1727493497_1ffba9d501c227ca4d35.webp&w=3840&q=75"
+                alt="" style="height: 300px; width: 300px; border-radius: 20px; padding: 10px;"></a>
+
+    </div>
+    <div style="display: flex;justify-content: flex-end;"><a class="learn-btn" href="#">Explore</a></div>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size:50px;">
+            E-Brochures</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: grey; ">
+            These digital guides serve as invaluable tools for travellers planning their Kerala vacations.</h2>
+
+    </div>
+    <div class="four" style="display: flex; align-items: center; justify-content: center; height: 100vh; width: 100vw;">
+        <a href="https://www.keralatourism.org/_next/image/?url=https%3A%2F%2Fik.imagekit.io%2Fxsnlqng4k%2FYoutubeImages%2Ftr%3Aw-1920%2Ch-1080%2Fvi%2FOnG4-uKu2PM%2Fmaxresdefault.jpg&w=1920&q=75"
+            target="_blank">
+            <img src="https://www.keralatourism.org/_next/image/?url=https%3A%2F%2Fik.imagekit.io%2Fxsnlqng4k%2FYoutubeImages%2Ftr%3Aw-1920%2Ch-1080%2Fvi%2FOnG4-uKu2PM%2Fmaxresdefault.jpg&w=1920&q=75"
+                alt="" style="width: 500px; height: 300px; border-radius: 20px; padding: 10px;">
+
+        </a>
+        <div style="background-color: white;height: 300px;width: 100vw;border-radius: 20px;">
+            <h1 style="font-size: 40px;">Wayanad</h1>
+            <p style="font-size: 23px; color: grey;">Discover Wayanad, the enchanting land of paddy fields in
+                Kerala's
+                Western
+                Ghats. With
+                its lush greenery,
+                misty hills, and rich biodiversity, Wayanad offers a perfect blend of adventure, heritage, and
+                tranquility
+                for nature lovers and travelers</p>
+            <div style="display: flex;justify-content:flex-start;"><a class="learn-btn" href="#">More</a></div>
+        </div>
+
+    </div>
+    <div style="display: flex;justify-content: flex-end;"><a class="learn-btn" href="#">Explore</a></div>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px">
+            Hospitality Services</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: grey; ">
+            Everything you need to consider for a trip to Kerala now.</h2>
+
+    </div>
+    <div class="header">Where to stay</div>
+    <div class="five">
+        <div class="form-box">
+            <label for="">Destination</label>
+            <input type="text" placeholder="Enter location">
+            <label for="">Categories</label>
+            <select>
+                <option>Select your category</option>
+            </select>
+            <button>Submit</button>
+
+        </div>
+        <div class="card">
+            <h3>Yathri Nivas / Eco Lodge</h3>
+            <p>Online Reservations</p>
+            <h3>Travel Care</h3>
+            <a class="learn-btn" href="#">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>Tourist Information Centers</h3>
+            <h3>Tour Guide</h3>
+            <a class="learn-btn" href="#">Learn More</a>
+        </div>
+    </div>
+    <div style="display: flex;justify-content: flex-end;"><a class="learn-btn" href="#">Explore</a></div>
+    <div style="width: 100vw; height: 300px;">
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px">
+            Latest News</h1>
+        <p style="display: flex; align-items: center; justify-content: center; font-size: 20px; color: #3d3838;">
+            This is
+            your one stop to get all the latest news and updates from Kerala Tourism. Information regarding
+            fairs, road shows and contests shall be posted here.</p>
+
+
+        <div style="display: flex;">
+            <div><a class="bt" href="">International Trade Fairs and B2B Meets 2025-26 Register Now </a></div>
+            <div><a class="bt" href="">International Trade Fairs and B2B Meets 2025-26 Register Now </a></div>
+        </div>
+    </div>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px">
+            Photo Gallery</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: grey; ">
+            Photographs that capture the spirit and splendour of God's Own Country.</h2>
+    </div>
+
+    <div style="height: 100vh; width: 100vw;">
+        <div
+            style="position: absolute; background-color: rgb(247, 249, 253); height: 268px; width: 420px; margin: 20px;padding-top: 35px;margin-top: 317px; ">
+            <div>
+                <h1
+                    style="font-size: 30px; font-family: 'Times New Roman', Times, serif; color: #00070c; margin: 10px;">
+                    Ponnani Beach </h1>
+                <p style="font-size: 23px; color: grey; position: absolute; margin: 10px;">The sandy shores and calm
+                    ambience of Ponnani Beach make it an
+                    ideal getaway destination for families. The mighty light house offering a breathtaking view of the
+                    surroundings, adds an extra layer of beauty to this coastal haven.</p>
+
+            </div>
+
+
+        </div>
+        <a href="https://www.keralatourism.org/images/enchanting_kerala/large/vakkad_beach20240622070400_1417_1.jpg"
+            target="_blank">
+            <img src="https://www.keralatourism.org/images/enchanting_kerala/large/vakkad_beach20240622070400_1417_1.jpg"
+                alt="" style="height: 600px;width: 1320px; border-radius: 10px;padding: 20px;"></a>
+
+    </div>
+
+    </div>
+    </div>
+    <div style="display: flex;justify-content: flex-end;"><a class="learn-btn" href="#">Explore</a>
+    </div>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px">
+            Video Gallery</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: grey; ">
+            Take a virtual expedition through our video gallery.</h2>
+    </div>
+    <div style="width: 100vw; height: 100hw; padding: 20px; display: flex;">
+
+        <a href="https://www.keralatourismhub.com/img/destin/alapp.jpg" target="_blank"><img
+                src="https://www.keralatourismhub.com/img/destin/alapp.jpg" alt=""
+                style="height: 600px;width: 1320px; border-radius: 10px;"></a>
+
+
+    </div>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; font-size: 50px">
+            Subscribe to our Newsletter</h1>
+        <h2 style="display: flex; align-items: center; justify-content: center; color: grey; ">
+            Sign up for Kerala Tourism's monthly newsletter to learn about our events, offers, and more…</h2>
+    </div>
+    <div>
+        <form action="" style="display: flex; justify-content: center; align-items: center; gap: 20px; ">
+            <input type="text" placeholder="Name"
+                style="border: none; outline: none;border-bottom: 1px solid grey; width: 450px; text-align: left; padding: 5px; font-size: 15px; ">
+            <input type="email" placeholder="Email"
+                style="border: none; outline: none; border-bottom: 1px solid grey; width: 450px; text-align: left; padding: 5px; font-size: 15px;">
+            <button
+                style="background-color: orange; color: white; border: none; padding: 10px 25px; cursor: pointer; border-radius: 20px; font-size: 15px;">Subscribe</button>
+        </form>
+    </div>
+    <div style="display: flex; padding-top: 50px;">
+        <div
+            style="height: 190px; width: 390px; background-color: white; margin: 40px;margin-top: 40px; border-radius: 10px;">
+            <a href="" style="font-size: 15px; color: #000;text-decoration: none; ">
+                <h1 style="margin: 20px;">www.keralatourism.gov.in</h1>
+                <p style="font-size: 19px; margin: 20px; color: grey;">For Business/Trade/Classifications and Tenders
+                    please visit</p>
+                <button
+                    style="border-radius: 17px; text-decoration: none; border: 1px solid rgb(192, 185, 185);padding: 9px 15px; margin-left: 10px;">Explore</button>
+            </a>
+        </div>
+        <div
+            style="height: 190px; width: 390px; background-color: white; margin: 40px;margin-top: 40px; border-radius: 10px;">
+            <a href="" style="font-size: 15px; color: #000;text-decoration: none; ">
+                <h1 style="margin: 20px;">Recruitments</h1>
+                <p style="font-size: 19px; margin: 20px; color: grey;">Explore all the job opportunities at the
+                    Department of Tourism, Government of Kerala here</p>
+
+                <button
+                    style="border-radius: 17px; text-decoration: none; border: 1px solid rgb(192, 185, 185);padding: 9px 15px; margin-left: 10px;">Explore</button>
+            </a>
+        </div>
+        <div
+            style="height: 190px; width: 390px; background-color: white; margin: 40px;margin-top: 40px; border-radius: 10px;">
+            <a href="" style="font-size: 15px; color: #000;text-decoration: none; ">
+                <h1 style="margin: 20px;">Mobile Applications</h1>
+                <p style="font-size: 19px; margin: 20px; color: grey;">Kerala Tourism's Mobile Applications provide you
+                    easier access to all the content produced by the Tourism Department.</p>
+                <button
+                    style="border-radius: 17px; text-decoration: none; border: 1px solid rgb(192, 185, 185);padding: 9px 15px; margin-left: 10px;">Explore</button>
+            </a>
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div style="height: 300px; width: 310px; background-color: white; margin: 45px; border-radius: 5px;">
+            <h1 style="font-style: italic; padding-left: 30px; padding-top: 40px; font-size: 40px;">B R D C</h1>
+            <a href="" style="text-decoration: none;color: black; ;">
+                <h1 style="font-size: 18px; margin: 30px;">B R D C</h1>
+            </a>
+            <p style="margin: 30px; font-size: 20px;">Know the sustainable tourism initiatives at Bekal</p>
+        </div>
+        <div style="height: 300px; width: 310px; background-color: white; margin: 45px; border-radius: 5px;">
+            <h1 style="font-style: italic; padding-left: 30px; padding-top: 40px; font-size: 40px;">D T P C</h1>
+            <a href="" style="text-decoration: none;color: black; ;">
+                <h1 style="font-size: 18px; margin: 30px;">D T P C</h1>
+            </a>
+            <p style="margin: 30px; font-size: 20px;">Discover the best of Kerala through the DTPCs</p>
+        </div>
+        <div style="height: 300px; width: 310px; background-color: white; margin: 45px; border-radius: 5px;">
+            <h1 style="font-style: italic; padding-left: 30px; padding-top: 40px; font-size: 40px;">K A T P S</h1>
+            <a href="" style="text-decoration: none;color: black; ;">
+                <h1 style="font-size: 18px; margin: 30px;">K A T P S</h1>
+            </a>
+            <p style="margin: 30px; font-size: 20px;">Explore Kerala's adventure sports through KATPS</p>
+        </div>
+        <div style="height: 0px; width: 310px; background-color: white; margin: 45px; border-radius: 5px;">
+            <h1 style="font-style: italic; padding-left: 30px; padding-top: 40px; font-size: 40px;">K I T T S</h1>
+            <a href="" style="text-decoration: none;color: black; ;">
+                <h1 style="font-size: 18px; margin: 30px;">K I T T S</h1>
+            </a>
+            <p style="margin: 30px; font-size: 20px;">
+                Know more about Kerala's tourism institution</p>
+        </div>
+
+
+    </div>
+
+
+    <div style="height: 100vh; width: 100vw; background-color: black;">
+        <a href="" style="text-decoration: none;">
+            <table style="margin: 45px;;">
+                <tr>
+                    <td style=" font-size: 20px; padding-top: 100px; color: white;">Explore</td>
+                    <td style="padding-left: 130px; font-size: 20px; padding-top: 100px; color:white;">
+                        TravelHub</td>
+                    <td style="padding-left: 130px; font-size: 20px; padding-top: 100px; color: white;">
+                        Nature</td>
+                    <td style="padding-left: 130px; font-size: 20px; padding-top: 100px; color: white;">
+                        Places </td>
+                    <td style="padding-left: 130px; font-size: 20px; padding-top: 100px; color: white;">
+                        Specialities </td>
+                    <td style="padding-left: 130px; font-size: 20px; padding-top: 100px; color: white;">
+                        Media </td>
+                </tr>
+                <tr>
+                    <td style=" font-size: 18px; padding-top: 20px; color: white;">Newsletter</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color:white;">
+                        Souvenirs</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color: white;">
+                        Wildlife</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color: white;">
+                        Kumarakom</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color: white;">
+                        KeralaFood</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color: white;">
+                        Photos</td>
+                </tr>
+                <tr>
+                    <td style=" font-size: 18px; padding-top: 20px; color: white;">Ecotourism</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color:white;">
+                        Accommodation</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color: white;">
+                        Islands</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color: white;">
+                        Varkala</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color: white;">
+                        Artforms</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color: white;">
+                        Site Map</td>
+                </tr>
+                <tr>
+                    <td style=" font-size: 18px; padding-top: 20px; color: white;">Kerala Specialist</td>
+                    <td style="padding-left: 130px; font-size: 18px; padding-top: 20px; color:white;">
+                        FAQs</td>
+
+                </tr>
+        </a>
+        </table>
+        <div style="width:100vw; background-color: grey;height: 1px; margin: 60px; margin-top: 120px;">
+
+        </div>
+        <div>
+            <div style="padding-left:500px;">
+                <h1 style=" color: white; font-size: 20px;">Contact | Terms of Use | Privacy Policy</h1></a>
+
+            </div>
+            <div style="padding-left: 100px; ">
+                <a href="" style="text-decoration: none; padding-top: 20px;">
+                    <p style="color: white; font-size: 18px; padding-top: 10px;">All rights reserved © Kerala Tourism |
+                        Developed & Maintained by Invis</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
